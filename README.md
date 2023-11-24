@@ -1,17 +1,17 @@
-NASA-LaTeX-Docs
+SpaceHQ Reports
 ================
 
 This is a report template to be used by members of SpaceHQ to create technical reports- it generously (or shamelessly)
 borrows from [NASA-LaTeX-Docs Documentation](https://nasa.github.io/nasa-latex-docs/html)
 
 Advantages:
--------
+-----------
 1. It allows one to generate a report in the format that NASA uses but with a SpaceHQ logo.
 2. Thanks to [NASA-LaTeX-Docs Documentation](https://nasa.github.io/nasa-latex-docs/html), you can also easily generate AIAA submission
 quality reports by changing the class of the document.
 
 Usage:
--------
+------
 These instructions assume the user is in their root directory.
 
 1. To clone a document:
