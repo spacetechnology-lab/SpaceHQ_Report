@@ -7,8 +7,8 @@ borrows from [NASA-LaTeX-Docs Documentation](https://nasa.github.io/nasa-latex-d
 Advantages:
 -----------
 1. It allows one to generate a report in the format that NASA uses but with a SpaceHQ logo.
-2. Thanks to [NASA-LaTeX-Docs Documentation](https://nasa.github.io/nasa-latex-docs/html), you can also easily generate AIAA submission
-quality reports by changing the class of the document.
+2. Thanks to [NASA-LaTeX-Docs Documentation](https://nasa.github.io/nasa-latex-docs/html), you can also easily
+generate AIAA submission quality reports by changing the class of the document.
 
 Usage:
 ------
@@ -33,6 +33,10 @@ without any modification:
 
 Once this completes you will notice the built `ParentFile_for_Report.pdf` file right next to the main
 `ParentFile_for_Report.tex` file within the `SpaceHQ_Report` directory.
+
+To-Do:
+------
+1. Add the tufte class as a template so you can generate Tufte style books.
 
 
 System Requirements:
