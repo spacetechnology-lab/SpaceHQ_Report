@@ -12,25 +12,27 @@ quality reports by changing the class of the document.
 
 Usage:
 -------
+These instructions assume the user is in their root directory.
+
 1. To clone a document:
 
 ```
 git clone https://github.com/spacetechnology-lab/SpaceHQ_Report.git
 ```
 
-2. Build a sample document with:
+2. Now with the document created, we can navigate to the document location so that we can build it (as described in Step 3).
+```
+cd ~/SpaceHQ_Report
+```
 
-Now with the document created, we can navigate to the document location and build it! All new documents have sample content so they should be ready to build right away with no user modification:
+3. This directory already has some sample content so users should be able to build a first document right away
+without any modification:
+```
+./support/buildPDF.py ParentFile_for_Report.tex
+```
 
-cd ~/Desktop/FinalReport
-From here, we can build the document:
-
-./support/buildPDF.py MyDocument.tex
-Once this completes you will notice the built MyDocument.pdf file right next to the main MyDocument.tex file at the root of the MyDocument/ directory.
-
-The build script is located in the following directory and can be used to build **any LaTeX document**:
-
-    ReportTemplate/buildPDF.py
+Once this completes you will notice the built `ParentFile_for_Report.pdf` file right next to the main
+`ParentFile_for_Report.tex` file within the `SpaceHQ_Report` directory.
 
 
 System Requirements:
