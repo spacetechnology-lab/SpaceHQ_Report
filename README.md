@@ -13,7 +13,12 @@ quality reports by changing the class of the document.
 Usage:
 -------
 1. To clone a document:
-```git clone https://github.com/nasa/nasa-latex-docs```
+
+```
+git clone https://github.com/spacetechnology-lab/SpaceHQ_Report.git
+```
+
+2. Build a sample document with:
 
 Now with the document created, we can navigate to the document location and build it! All new documents have sample content so they should be ready to build right away with no user modification:
 
