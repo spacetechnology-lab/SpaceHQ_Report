@@ -1,6 +1,6 @@
 SpaceHQ Reports
 ================
-![](./support/images/SpaceHQ.png)
+![](./support/images/SpaceHQ_readme.png)
 
 This is a report template to be used by members of SpaceHQ to create technical reports- it generously (or shamelessly)
 borrows from [NASA-LaTeX-Docs Documentation](https://nasa.github.io/nasa-latex-docs/html)
