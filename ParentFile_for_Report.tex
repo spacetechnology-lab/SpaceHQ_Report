@@ -1,0 +1,52 @@
+% Define Class: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[template=tech-report]{nasa-latex-docs}
+%\documentclass[template=tech-report]{nasa-latex-docs}
+%\documentclass[template=aiaa-submission]{nasa-latex-docs}
+
+% Preamble Section: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\docTitle[Document Title]
+\docDate[\today]
+\docOrganization[
+SpaceHQ Labs\\
+London, England\\
+]
+
+\docTypeTitle[]
+
+\docAuthorName(1)={Angadh Nanjangud, PhD}
+\docAuthorPosition(1)={Director}
+\docAuthorOrganization(1)={SpaceHQ Labs}
+\docAuthorLocation(1)={Queen Mary University of London}
+
+\docAuthorName(2)={Student Name}
+\docAuthorPosition(2)={PhD Student}
+\docAuthorOrganization(2)={SpaceHQ Labs}
+\docAuthorLocation(2)={Queen Mary University of London}
+
+\docApproverName(1)={Angadh Nanjangud, PhD}
+\docApproverPosition(1)={Director}
+\docApproverOrganization(1)={SpaceHQ Labs}
+\docApproverLocation(1)={Queen Mary University of London}
+
+\docApproverName(2)={}
+
+\docOrgLogo[SpaceHQ]
+\docLogo[]
+
+\docSigned[]
+\docSignDate[]
+\docAbstract[\input{tex/sample_abstract.tex}]
+\docRevisionLog[]
+
+% Add bibliogrpahy file
+\addbibresource{DebrisCollision_ModellingAndSimulation_Report.bib}
+
+% Main Document Content: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\input{tex/sample_content.tex}
+
+\printbibliography
+
+\end{document}
+% End of Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
