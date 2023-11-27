@@ -35,9 +35,19 @@ without any modification:
 Once this completes you will notice the built `ParentFile_for_Report.pdf` file right next to the main
 `ParentFile_for_Report.tex` file within the `SpaceHQ_Report` directory.
 
+Advanced Usage:
+---------------
+Suppose you want to export content in an .ipynb as a tex document; you can do so with the following command,
+which puts the exported file in the `tex/` directory. However, much editing is neeeded to remove the preamble
+of the generated document (see todo list item 1).
+```
+jupyter nbconvert --output-dir='./tex' --to latex --no-input src/Case_4_a/4_min_torque_part1.ipynb --output casenew.tex
+```
+
 To-Do:
 ------
-1. Add the tufte class as a template so you can generate Tufte style books.
+1. Find a way to export nbconvert without preamble to latex document; I want just sections etc..
+2. Add the tufte class as a template so you can generate Tufte style books.
 
 
 System Requirements:
